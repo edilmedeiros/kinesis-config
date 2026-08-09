@@ -31,7 +31,7 @@
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                        &none      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none         &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                            &kp HOME      &kp PG_UP                        &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 9 ESCAPE  &kp ENTER  &kp END       &kp PG_DN  &kp SPACE  &lt 8 TAB          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 4 ESCAPE  &kp ENTER  &kp END       &kp PG_DN  &kp SPACE  &lt 5 TAB          &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -104,26 +104,6 @@
         extra4 {
             display-name = "Yellow";
             status = "reserved";
-        };
-
-        right_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &trans      &trans  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans    &kp DELETE  &trans  &kp BACKSPACE  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans    &trans      &trans  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &trans      &trans  &trans         &trans  &trans
-            >;
-        };
-
-        left_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
         };
     };
 };
