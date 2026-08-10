@@ -21,6 +21,13 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        td_backspace: td_backspace {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_BACKSPACE";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp RC(BACKSPACE)>;
+        };
     };
 
     keymap {
@@ -33,7 +40,7 @@
 &kp TAB    &kp Q           &kp W      &kp E         &kp R             &kp T   &kp K_VOLUME_UP                                                           &kp LG(LC(Q))  &kp Y   &kp U              &kp I          &kp O      &kp P            &kp BSLH
 &kp ESC    &kp A           &kp S      &kp D         &kp F             &kp G   &kp K_VOLUME_DOWN  &mo 4         &kp LALT      &kp LGUI    &kp LG(SPACE)  &kp GLOBE      &kp H   &kp J              &kp K          &kp L      &kp SEMI         &kp SQT
 &kp LSHFT  &kp Z           &kp X      &kp C         &kp V             &kp B                                    &kp HOME      &caps_word                                &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH         &kp RSHFT
-&mo 2      &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND          &kp BACKSPACE      &lt 4 ESCAPE  &kp END       &mo 5       &kp ENTER      &lt 5 SPACE            &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &mo 2
+&mo 2      &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND          &td_backspace      &lt 4 ESCAPE  &kp END       &mo 5       &kp ENTER      &lt 5 SPACE            &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &mo 2
             >;
         };
 
