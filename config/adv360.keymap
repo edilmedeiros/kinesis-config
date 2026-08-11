@@ -36,11 +36,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp GRAVE  &kp N1          &kp N2     &kp N3        &kp N4            &kp N5  &tog 1                                                                    &mo 3                                 &kp N6  &kp N7             &kp N8         &kp N9     &kp N0           &kp MINUS
-&kp TAB    &kp Q           &kp W      &kp E         &kp R             &kp T   &kp K_VOLUME_UP                                                           &kp LG(LC(Q))                         &kp Y   &kp U              &kp I          &kp O      &kp P            &kp BSLH
-&kp ESC    &kp A           &kp S      &kp D         &kp F             &kp G   &kp K_VOLUME_DOWN  &mo 4         &kp LALT      &kp LGUI    &kp LG(SPACE)  &kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp H   &kp J              &kp K          &kp L      &kp SEMI         &kp SQT
-&kp LSHFT  &kp Z           &kp X      &kp C         &kp V             &kp B                                    &kp HOME      &caps_word                                                       &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH         &kp RSHFT
-&mo 2      &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND          &kp BACKSPACE      &lt 4 ESCAPE  &kp END       &mo 5       &lt 5 ENTER    &kp SPACE                                     &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &mo 2
+&kp GRAVE  &kp N1          &kp N2     &kp N3        &kp N4            &kp N5  &tog 1                                                                    &mo 3                  &kp N6  &kp N7             &kp N8         &kp N9     &kp N0           &kp MINUS
+&kp TAB    &kp Q           &kp W      &kp E         &kp R             &kp T   &kp C_VOLUME_UP                                                           &kp LG(LC(Q))          &kp Y   &kp U              &kp I          &kp O      &kp P            &kp BSLH
+&kp ESC    &kp A           &kp S      &kp D         &kp F             &kp G   &kp C_VOLUME_DOWN  &mo 4         &kp LALT      &kp LGUI    &kp LG(SPACE)  &kp RS(RA(RC(RG(E))))  &kp H   &kp J              &kp K          &kp L      &kp SEMI         &kp SQT
+&kp LSHFT  &kp Z           &kp X      &kp C         &kp V             &kp B                                    &kp HOME      &caps_word                                        &kp N   &kp M              &kp COMMA      &kp DOT    &kp FSLH         &kp RSHFT
+&mo 2      &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND          &kp BACKSPACE      &lt 4 ESCAPE  &kp END       &mo 5       &lt 5 ENTER    &kp SPACE                      &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp RCTRL  &kp RIGHT_SHIFT  &mo 2
             >;
         };
 
